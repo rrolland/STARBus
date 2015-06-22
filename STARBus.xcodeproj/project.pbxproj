@@ -15,6 +15,28 @@
 		652C99621B30BE3C00F6C966 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652C99611B30BE3C00F6C966 /* Images.xcassets */; };
 		652C99651B30BE3C00F6C966 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652C99631B30BE3C00F6C966 /* LaunchScreen.xib */; };
 		652C99711B30BE3D00F6C966 /* STARBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C99701B30BE3D00F6C966 /* STARBusTests.m */; };
+		65DED9EB1B389EC4005A6876 /* agency.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E11B389EC4005A6876 /* agency.txt */; };
+		65DED9EC1B389EC4005A6876 /* agency.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E11B389EC4005A6876 /* agency.txt */; };
+		65DED9ED1B389EC4005A6876 /* calendar.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E21B389EC4005A6876 /* calendar.txt */; };
+		65DED9EE1B389EC4005A6876 /* calendar.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E21B389EC4005A6876 /* calendar.txt */; };
+		65DED9EF1B389EC4005A6876 /* calendar_dates.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E31B389EC4005A6876 /* calendar_dates.txt */; };
+		65DED9F01B389EC4005A6876 /* calendar_dates.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E31B389EC4005A6876 /* calendar_dates.txt */; };
+		65DED9F11B389EC4005A6876 /* feed_info.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E41B389EC4005A6876 /* feed_info.txt */; };
+		65DED9F21B389EC4005A6876 /* feed_info.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E41B389EC4005A6876 /* feed_info.txt */; };
+		65DED9F31B389EC4005A6876 /* routes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E51B389EC4005A6876 /* routes.txt */; };
+		65DED9F41B389EC4005A6876 /* routes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E51B389EC4005A6876 /* routes.txt */; };
+		65DED9F51B389EC4005A6876 /* routes_additionals.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E61B389EC4005A6876 /* routes_additionals.txt */; };
+		65DED9F61B389EC4005A6876 /* routes_additionals.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E61B389EC4005A6876 /* routes_additionals.txt */; };
+		65DED9F71B389EC4005A6876 /* stop_times.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E71B389EC4005A6876 /* stop_times.txt */; };
+		65DED9F81B389EC4005A6876 /* stop_times.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E71B389EC4005A6876 /* stop_times.txt */; };
+		65DED9F91B389EC4005A6876 /* stops.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E81B389EC4005A6876 /* stops.txt */; };
+		65DED9FA1B389EC4005A6876 /* stops.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E81B389EC4005A6876 /* stops.txt */; };
+		65DED9FB1B389EC4005A6876 /* stops_extensions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E91B389EC4005A6876 /* stops_extensions.txt */; };
+		65DED9FC1B389EC4005A6876 /* stops_extensions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E91B389EC4005A6876 /* stops_extensions.txt */; };
+		65DED9FD1B389EC4005A6876 /* trips.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9EA1B389EC4005A6876 /* trips.txt */; };
+		65DED9FE1B389EC4005A6876 /* trips.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9EA1B389EC4005A6876 /* trips.txt */; };
+		65DEDA011B389F53005A6876 /* StarBusModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65DED9FF1B389F53005A6876 /* StarBusModel.xcdatamodeld */; };
+		65DEDA021B389F53005A6876 /* StarBusModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65DED9FF1B389F53005A6876 /* StarBusModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +64,17 @@
 		652C996A1B30BE3D00F6C966 /* STARBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STARBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		652C996F1B30BE3D00F6C966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		652C99701B30BE3D00F6C966 /* STARBusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STARBusTests.m; sourceTree = "<group>"; };
+		65DED9E11B389EC4005A6876 /* agency.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = agency.txt; sourceTree = "<group>"; };
+		65DED9E21B389EC4005A6876 /* calendar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar.txt; sourceTree = "<group>"; };
+		65DED9E31B389EC4005A6876 /* calendar_dates.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar_dates.txt; sourceTree = "<group>"; };
+		65DED9E41B389EC4005A6876 /* feed_info.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = feed_info.txt; sourceTree = "<group>"; };
+		65DED9E51B389EC4005A6876 /* routes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = routes.txt; sourceTree = "<group>"; };
+		65DED9E61B389EC4005A6876 /* routes_additionals.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = routes_additionals.txt; sourceTree = "<group>"; };
+		65DED9E71B389EC4005A6876 /* stop_times.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stop_times.txt; sourceTree = "<group>"; };
+		65DED9E81B389EC4005A6876 /* stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.txt; sourceTree = "<group>"; };
+		65DED9E91B389EC4005A6876 /* stops_extensions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops_extensions.txt; sourceTree = "<group>"; };
+		65DED9EA1B389EC4005A6876 /* trips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trips.txt; sourceTree = "<group>"; };
+		65DEDA001B389F53005A6876 /* StarBusModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarBusModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +116,9 @@
 		652C99501B30BE3C00F6C966 /* STARBus */ = {
 			isa = PBXGroup;
 			children = (
+				65DED9DE1B389EC4005A6876 /* UI */,
+				65DED9DF1B389EC4005A6876 /* Model */,
+				65DED9E01B389EC4005A6876 /* GTFS */,
 				652C99551B30BE3C00F6C966 /* AppDelegate.h */,
 				652C99561B30BE3C00F6C966 /* AppDelegate.m */,
 				652C995B1B30BE3C00F6C966 /* ViewController.h */,
@@ -120,6 +156,38 @@
 				652C996F1B30BE3D00F6C966 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65DED9DE1B389EC4005A6876 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		65DED9DF1B389EC4005A6876 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65DED9FF1B389F53005A6876 /* StarBusModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65DED9E01B389EC4005A6876 /* GTFS */ = {
+			isa = PBXGroup;
+			children = (
+				65DED9E11B389EC4005A6876 /* agency.txt */,
+				65DED9E21B389EC4005A6876 /* calendar.txt */,
+				65DED9E31B389EC4005A6876 /* calendar_dates.txt */,
+				65DED9E41B389EC4005A6876 /* feed_info.txt */,
+				65DED9E51B389EC4005A6876 /* routes.txt */,
+				65DED9E61B389EC4005A6876 /* routes_additionals.txt */,
+				65DED9E71B389EC4005A6876 /* stop_times.txt */,
+				65DED9E81B389EC4005A6876 /* stops.txt */,
+				65DED9E91B389EC4005A6876 /* stops_extensions.txt */,
+				65DED9EA1B389EC4005A6876 /* trips.txt */,
+			);
+			path = GTFS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +270,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65DED9ED1B389EC4005A6876 /* calendar.txt in Resources */,
 				652C99601B30BE3C00F6C966 /* Main.storyboard in Resources */,
+				65DED9FB1B389EC4005A6876 /* stops_extensions.txt in Resources */,
+				65DED9F31B389EC4005A6876 /* routes.txt in Resources */,
+				65DED9F11B389EC4005A6876 /* feed_info.txt in Resources */,
+				65DED9F91B389EC4005A6876 /* stops.txt in Resources */,
 				652C99651B30BE3C00F6C966 /* LaunchScreen.xib in Resources */,
+				65DED9F51B389EC4005A6876 /* routes_additionals.txt in Resources */,
+				65DED9FD1B389EC4005A6876 /* trips.txt in Resources */,
 				652C99621B30BE3C00F6C966 /* Images.xcassets in Resources */,
+				65DED9F71B389EC4005A6876 /* stop_times.txt in Resources */,
+				65DED9EF1B389EC4005A6876 /* calendar_dates.txt in Resources */,
+				65DED9EB1B389EC4005A6876 /* agency.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +290,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65DED9FA1B389EC4005A6876 /* stops.txt in Resources */,
+				65DED9F41B389EC4005A6876 /* routes.txt in Resources */,
+				65DED9EE1B389EC4005A6876 /* calendar.txt in Resources */,
+				65DED9FE1B389EC4005A6876 /* trips.txt in Resources */,
+				65DED9F81B389EC4005A6876 /* stop_times.txt in Resources */,
+				65DED9F01B389EC4005A6876 /* calendar_dates.txt in Resources */,
+				65DED9F21B389EC4005A6876 /* feed_info.txt in Resources */,
+				65DED9EC1B389EC4005A6876 /* agency.txt in Resources */,
+				65DED9F61B389EC4005A6876 /* routes_additionals.txt in Resources */,
+				65DED9FC1B389EC4005A6876 /* stops_extensions.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				652C995A1B30BE3C00F6C966 /* STARBus.xcdatamodeld in Sources */,
+				65DEDA011B389F53005A6876 /* StarBusModel.xcdatamodeld in Sources */,
 				652C99571B30BE3C00F6C966 /* AppDelegate.m in Sources */,
 				652C995D1B30BE3C00F6C966 /* ViewController.m in Sources */,
 				652C99541B30BE3C00F6C966 /* main.m in Sources */,
@@ -233,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65DEDA021B389F53005A6876 /* StarBusModel.xcdatamodeld in Sources */,
 				652C99711B30BE3D00F6C966 /* STARBusTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +512,7 @@
 				652C99761B30BE3D00F6C966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		652C99771B30BE3D00F6C966 /* Build configuration list for PBXNativeTarget "STARBusTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +521,7 @@
 				652C99791B30BE3D00F6C966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -441,6 +533,16 @@
 			);
 			currentVersion = 652C99591B30BE3C00F6C966 /* STARBus.xcdatamodel */;
 			path = STARBus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		65DED9FF1B389F53005A6876 /* StarBusModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65DEDA001B389F53005A6876 /* StarBusModel.xcdatamodel */,
+			);
+			currentVersion = 65DEDA001B389F53005A6876 /* StarBusModel.xcdatamodel */;
+			path = StarBusModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
