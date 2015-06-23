@@ -7,14 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		651798331B393789004CE71D /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = 651798321B393789004CE71D /* Stop.m */; };
-		651798341B393789004CE71D /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = 651798321B393789004CE71D /* Stop.m */; };
-		651798371B39378A004CE71D /* StopTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 651798361B39378A004CE71D /* StopTimes.m */; };
-		651798381B39378A004CE71D /* StopTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 651798361B39378A004CE71D /* StopTimes.m */; };
-		6517983B1B39378A004CE71D /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 6517983A1B39378A004CE71D /* Trip.m */; };
-		6517983C1B39378A004CE71D /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 6517983A1B39378A004CE71D /* Trip.m */; };
-		6517983F1B39378A004CE71D /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 6517983E1B39378A004CE71D /* Route.m */; };
-		651798401B39378A004CE71D /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 6517983E1B39378A004CE71D /* Route.m */; };
 		652C99541B30BE3C00F6C966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C99531B30BE3C00F6C966 /* main.m */; };
 		652C99571B30BE3C00F6C966 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C99561B30BE3C00F6C966 /* AppDelegate.m */; };
 		652C995D1B30BE3C00F6C966 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C995C1B30BE3C00F6C966 /* ViewController.m */; };
@@ -44,6 +36,14 @@
 		65DED9FE1B389EC4005A6876 /* trips.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9EA1B389EC4005A6876 /* trips.txt */; };
 		65DEDA011B389F53005A6876 /* StarBusModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65DED9FF1B389F53005A6876 /* StarBusModel.xcdatamodeld */; };
 		65DEDA021B389F53005A6876 /* StarBusModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65DED9FF1B389F53005A6876 /* StarBusModel.xcdatamodeld */; };
+		65E22BD21B39FB1400797201 /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BD11B39FB1400797201 /* Stop.m */; };
+		65E22BD31B39FB1400797201 /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BD11B39FB1400797201 /* Stop.m */; };
+		65E22BD61B39FB1400797201 /* StopTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BD51B39FB1400797201 /* StopTimes.m */; };
+		65E22BD71B39FB1400797201 /* StopTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BD51B39FB1400797201 /* StopTimes.m */; };
+		65E22BDA1B39FB1500797201 /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BD91B39FB1500797201 /* Trip.m */; };
+		65E22BDB1B39FB1500797201 /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BD91B39FB1500797201 /* Trip.m */; };
+		65E22BDE1B39FB1500797201 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BDD1B39FB1500797201 /* Route.m */; };
+		65E22BDF1B39FB1500797201 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BDD1B39FB1500797201 /* Route.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,14 +57,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		651798311B393789004CE71D /* Stop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stop.h; sourceTree = "<group>"; };
-		651798321B393789004CE71D /* Stop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stop.m; sourceTree = "<group>"; };
-		651798351B39378A004CE71D /* StopTimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopTimes.h; sourceTree = "<group>"; };
-		651798361B39378A004CE71D /* StopTimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopTimes.m; sourceTree = "<group>"; };
-		651798391B39378A004CE71D /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trip.h; sourceTree = "<group>"; };
-		6517983A1B39378A004CE71D /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
-		6517983D1B39378A004CE71D /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
-		6517983E1B39378A004CE71D /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
 		652C994E1B30BE3C00F6C966 /* STARBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STARBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		652C99521B30BE3C00F6C966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		652C99531B30BE3C00F6C966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +81,14 @@
 		65DED9E91B389EC4005A6876 /* stops_extensions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops_extensions.txt; sourceTree = "<group>"; };
 		65DED9EA1B389EC4005A6876 /* trips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trips.txt; sourceTree = "<group>"; };
 		65DEDA001B389F53005A6876 /* StarBusModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarBusModel.xcdatamodel; sourceTree = "<group>"; };
+		65E22BD01B39FB1400797201 /* Stop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stop.h; sourceTree = "<group>"; };
+		65E22BD11B39FB1400797201 /* Stop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stop.m; sourceTree = "<group>"; };
+		65E22BD41B39FB1400797201 /* StopTimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopTimes.h; sourceTree = "<group>"; };
+		65E22BD51B39FB1400797201 /* StopTimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopTimes.m; sourceTree = "<group>"; };
+		65E22BD81B39FB1500797201 /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trip.h; sourceTree = "<group>"; };
+		65E22BD91B39FB1500797201 /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
+		65E22BDC1B39FB1500797201 /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		65E22BDD1B39FB1500797201 /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +130,8 @@
 		652C99501B30BE3C00F6C966 /* STARBus */ = {
 			isa = PBXGroup;
 			children = (
+				65E22BCE1B39F92F00797201 /* Managers */,
+				65E22BCF1B39F92F00797201 /* Helpers */,
 				65DED9DE1B389EC4005A6876 /* UI */,
 				65DED9DF1B389EC4005A6876 /* Model */,
 				65DED9E01B389EC4005A6876 /* GTFS */,
@@ -181,15 +183,15 @@
 		65DED9DF1B389EC4005A6876 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				651798311B393789004CE71D /* Stop.h */,
-				6517983D1B39378A004CE71D /* Route.h */,
-				6517983E1B39378A004CE71D /* Route.m */,
-				651798391B39378A004CE71D /* Trip.h */,
-				6517983A1B39378A004CE71D /* Trip.m */,
-				651798351B39378A004CE71D /* StopTimes.h */,
-				651798361B39378A004CE71D /* StopTimes.m */,
-				651798321B393789004CE71D /* Stop.m */,
 				65DED9FF1B389F53005A6876 /* StarBusModel.xcdatamodeld */,
+				65E22BDC1B39FB1500797201 /* Route.h */,
+				65E22BDD1B39FB1500797201 /* Route.m */,
+				65E22BD81B39FB1500797201 /* Trip.h */,
+				65E22BD91B39FB1500797201 /* Trip.m */,
+				65E22BD41B39FB1400797201 /* StopTimes.h */,
+				65E22BD51B39FB1400797201 /* StopTimes.m */,
+				65E22BD01B39FB1400797201 /* Stop.h */,
+				65E22BD11B39FB1400797201 /* Stop.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -209,6 +211,20 @@
 				65DED9EA1B389EC4005A6876 /* trips.txt */,
 			);
 			path = GTFS;
+			sourceTree = "<group>";
+		};
+		65E22BCE1B39F92F00797201 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		65E22BCF1B39F92F00797201 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,14 +347,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6517983B1B39378A004CE71D /* Trip.m in Sources */,
-				6517983F1B39378A004CE71D /* Route.m in Sources */,
+				65E22BDA1B39FB1500797201 /* Trip.m in Sources */,
+				65E22BDE1B39FB1500797201 /* Route.m in Sources */,
 				65DEDA011B389F53005A6876 /* StarBusModel.xcdatamodeld in Sources */,
 				652C99571B30BE3C00F6C966 /* AppDelegate.m in Sources */,
 				652C995D1B30BE3C00F6C966 /* ViewController.m in Sources */,
 				652C99541B30BE3C00F6C966 /* main.m in Sources */,
-				651798371B39378A004CE71D /* StopTimes.m in Sources */,
-				651798331B393789004CE71D /* Stop.m in Sources */,
+				65E22BD61B39FB1400797201 /* StopTimes.m in Sources */,
+				65E22BD21B39FB1400797201 /* Stop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,11 +363,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				65DEDA021B389F53005A6876 /* StarBusModel.xcdatamodeld in Sources */,
-				6517983C1B39378A004CE71D /* Trip.m in Sources */,
 				652C99711B30BE3D00F6C966 /* STARBusTests.m in Sources */,
-				651798401B39378A004CE71D /* Route.m in Sources */,
-				651798381B39378A004CE71D /* StopTimes.m in Sources */,
-				651798341B393789004CE71D /* Stop.m in Sources */,
+				65E22BDB1B39FB1500797201 /* Trip.m in Sources */,
+				65E22BDF1B39FB1500797201 /* Route.m in Sources */,
+				65E22BD71B39FB1400797201 /* StopTimes.m in Sources */,
+				65E22BD31B39FB1400797201 /* Stop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

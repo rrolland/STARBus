@@ -19,14 +19,14 @@
 @property (nonatomic, retain) NSString * nameLong;
 @property (nonatomic, retain) NSString * nameShort;
 @property (nonatomic, retain) NSString * textColor;
-@property (nonatomic, retain) NSSet *trip;
+@property (nonatomic, retain) NSSet *trips;
 @end
 
 @interface Route (CoreDataGeneratedAccessors)
 
-- (void)addTripObject:(Trip *)value;
-- (void)removeTripObject:(Trip *)value;
-- (void)addTrip:(NSSet *)values;
-- (void)removeTrip:(NSSet *)values;
+- (void)addTripsObject:(Trip *)value;
+- (void)removeTripsObject:(Trip *)value;
+- (void)addTrips:(NSSet *)values;
+- (void)removeTrips:(NSSet *)values;
 
 @end

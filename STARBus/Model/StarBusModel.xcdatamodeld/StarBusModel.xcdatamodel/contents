@@ -7,7 +7,7 @@
         <attribute name="nameLong" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="nameShort" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="textColor" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="trip" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Trip" inverseName="route" inverseEntity="Trip" syncable="YES"/>
+        <relationship name="trips" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Trip" inverseName="route" inverseEntity="Trip" syncable="YES"/>
     </entity>
     <entity name="Stop" representedClassName="Stop" syncable="YES">
         <attribute name="code" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
@@ -16,7 +16,7 @@
         <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="trip" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Trip" inverseName="stop" inverseEntity="Trip" syncable="YES"/>
+        <relationship name="stopTimes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="StopTimes" inverseName="stop" inverseEntity="StopTimes" syncable="YES"/>
     </entity>
     <entity name="StopTimes" representedClassName="StopTimes" syncable="YES">
         <attribute name="arrivalTime" optional="YES" attributeType="Date" syncable="YES"/>
@@ -24,6 +24,8 @@
         <attribute name="stopId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="stopSequence" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="tripId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="stop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Stop" inverseName="stopTimes" inverseEntity="Stop" syncable="YES"/>
+        <relationship name="trip" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Trip" inverseName="stopTimes" inverseEntity="Trip" syncable="YES"/>
     </entity>
     <entity name="Trip" representedClassName="Trip" syncable="YES">
         <attribute name="direction" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
@@ -31,13 +33,13 @@
         <attribute name="identifier" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="routeId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="serviceId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
-        <relationship name="route" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Route" inverseName="trip" inverseEntity="Route" syncable="YES"/>
-        <relationship name="stop" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Stop" inverseName="trip" inverseEntity="Stop" syncable="YES"/>
+        <relationship name="route" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Route" inverseName="trips" inverseEntity="Route" syncable="YES"/>
+        <relationship name="stopTimes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="StopTimes" inverseName="trip" inverseEntity="StopTimes" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Route" positionX="-4860" positionY="563" width="128" height="148"/>
-        <element name="Stop" positionX="-4860" positionY="774" width="108" height="148"/>
-        <element name="Trip" positionX="-4626" positionY="756" width="128" height="148"/>
-        <element name="StopTimes" positionX="-4635" positionY="567" width="128" height="118"/>
+        <element name="Route" positionX="-3672" positionY="1499" width="128" height="150"/>
+        <element name="Stop" positionX="-3843" positionY="1677" width="108" height="150"/>
+        <element name="StopTimes" positionX="-3683" positionY="1692" width="128" height="150"/>
+        <element name="Trip" positionX="-3467" positionY="1695" width="128" height="150"/>
     </elements>
 </model>

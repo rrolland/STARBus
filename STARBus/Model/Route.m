@@ -18,6 +18,6 @@
 @dynamic nameLong;
 @dynamic nameShort;
 @dynamic textColor;
-@dynamic trip;
+@dynamic trips;
 
 @end

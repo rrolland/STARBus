@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@class Route, Stop;
+@class Route, StopTimes;
 
 @interface Trip : NSManagedObject
 
@@ -19,14 +19,14 @@
 @property (nonatomic, retain) NSNumber * routeId;
 @property (nonatomic, retain) NSNumber * serviceId;
 @property (nonatomic, retain) Route *route;
-@property (nonatomic, retain) NSSet *stop;
+@property (nonatomic, retain) NSSet *stopTimes;
 @end
 
 @interface Trip (CoreDataGeneratedAccessors)
 
-- (void)addStopObject:(Stop *)value;
-- (void)removeStopObject:(Stop *)value;
-- (void)addStop:(NSSet *)values;
-- (void)removeStop:(NSSet *)values;
+- (void)addStopTimesObject:(StopTimes *)value;
+- (void)removeStopTimesObject:(StopTimes *)value;
+- (void)addStopTimes:(NSSet *)values;
+- (void)removeStopTimes:(NSSet *)values;
 
 @end

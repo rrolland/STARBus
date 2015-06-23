@@ -8,7 +8,7 @@
 
 #import "Trip.h"
 #import "Route.h"
-#import "Stop.h"
+#import "StopTimes.h"
 
 
 @implementation Trip
@@ -19,6 +19,6 @@
 @dynamic routeId;
 @dynamic serviceId;
 @dynamic route;
-@dynamic stop;
+@dynamic stopTimes;
 
 @end

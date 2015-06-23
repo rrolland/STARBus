@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
+@class Stop, Trip;
 
 @interface StopTimes : NSManagedObject
 
@@ -17,5 +18,7 @@
 @property (nonatomic, retain) NSNumber * stopId;
 @property (nonatomic, retain) NSNumber * stopSequence;
 @property (nonatomic, retain) NSNumber * tripId;
+@property (nonatomic, retain) Trip *trip;
+@property (nonatomic, retain) Stop *stop;
 
 @end

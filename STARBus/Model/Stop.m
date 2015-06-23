@@ -7,7 +7,7 @@
 //
 
 #import "Stop.h"
-#import "Trip.h"
+#import "StopTimes.h"
 
 
 @implementation Stop
@@ -18,6 +18,6 @@
 @dynamic latitude;
 @dynamic longitude;
 @dynamic name;
-@dynamic trip;
+@dynamic stopTimes;
 
 @end

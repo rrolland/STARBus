@@ -7,6 +7,8 @@
 //
 
 #import "StopTimes.h"
+#import "Stop.h"
+#import "Trip.h"
 
 
 @implementation StopTimes
@@ -16,5 +18,7 @@
 @dynamic stopId;
 @dynamic stopSequence;
 @dynamic tripId;
+@dynamic trip;
+@dynamic stop;
 
 @end
