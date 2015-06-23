@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		651798331B393789004CE71D /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = 651798321B393789004CE71D /* Stop.m */; };
+		651798341B393789004CE71D /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = 651798321B393789004CE71D /* Stop.m */; };
+		651798371B39378A004CE71D /* StopTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 651798361B39378A004CE71D /* StopTimes.m */; };
+		651798381B39378A004CE71D /* StopTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 651798361B39378A004CE71D /* StopTimes.m */; };
+		6517983B1B39378A004CE71D /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 6517983A1B39378A004CE71D /* Trip.m */; };
+		6517983C1B39378A004CE71D /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 6517983A1B39378A004CE71D /* Trip.m */; };
+		6517983F1B39378A004CE71D /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 6517983E1B39378A004CE71D /* Route.m */; };
+		651798401B39378A004CE71D /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 6517983E1B39378A004CE71D /* Route.m */; };
 		652C99541B30BE3C00F6C966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C99531B30BE3C00F6C966 /* main.m */; };
 		652C99571B30BE3C00F6C966 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C99561B30BE3C00F6C966 /* AppDelegate.m */; };
-		652C995A1B30BE3C00F6C966 /* STARBus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 652C99581B30BE3C00F6C966 /* STARBus.xcdatamodeld */; };
 		652C995D1B30BE3C00F6C966 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C995C1B30BE3C00F6C966 /* ViewController.m */; };
 		652C99601B30BE3C00F6C966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652C995E1B30BE3C00F6C966 /* Main.storyboard */; };
 		652C99621B30BE3C00F6C966 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652C99611B30BE3C00F6C966 /* Images.xcassets */; };
@@ -50,12 +57,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		651798311B393789004CE71D /* Stop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stop.h; sourceTree = "<group>"; };
+		651798321B393789004CE71D /* Stop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stop.m; sourceTree = "<group>"; };
+		651798351B39378A004CE71D /* StopTimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopTimes.h; sourceTree = "<group>"; };
+		651798361B39378A004CE71D /* StopTimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopTimes.m; sourceTree = "<group>"; };
+		651798391B39378A004CE71D /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trip.h; sourceTree = "<group>"; };
+		6517983A1B39378A004CE71D /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
+		6517983D1B39378A004CE71D /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		6517983E1B39378A004CE71D /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
 		652C994E1B30BE3C00F6C966 /* STARBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STARBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		652C99521B30BE3C00F6C966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		652C99531B30BE3C00F6C966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		652C99551B30BE3C00F6C966 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		652C99561B30BE3C00F6C966 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		652C99591B30BE3C00F6C966 /* STARBus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = STARBus.xcdatamodel; sourceTree = "<group>"; };
 		652C995B1B30BE3C00F6C966 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		652C995C1B30BE3C00F6C966 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		652C995F1B30BE3C00F6C966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -126,7 +140,6 @@
 				652C995E1B30BE3C00F6C966 /* Main.storyboard */,
 				652C99611B30BE3C00F6C966 /* Images.xcassets */,
 				652C99631B30BE3C00F6C966 /* LaunchScreen.xib */,
-				652C99581B30BE3C00F6C966 /* STARBus.xcdatamodeld */,
 				652C99511B30BE3C00F6C966 /* Supporting Files */,
 			);
 			path = STARBus;
@@ -168,6 +181,14 @@
 		65DED9DF1B389EC4005A6876 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				651798311B393789004CE71D /* Stop.h */,
+				6517983D1B39378A004CE71D /* Route.h */,
+				6517983E1B39378A004CE71D /* Route.m */,
+				651798391B39378A004CE71D /* Trip.h */,
+				6517983A1B39378A004CE71D /* Trip.m */,
+				651798351B39378A004CE71D /* StopTimes.h */,
+				651798361B39378A004CE71D /* StopTimes.m */,
+				651798321B393789004CE71D /* Stop.m */,
 				65DED9FF1B389F53005A6876 /* StarBusModel.xcdatamodeld */,
 			);
 			path = Model;
@@ -310,11 +331,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				652C995A1B30BE3C00F6C966 /* STARBus.xcdatamodeld in Sources */,
+				6517983B1B39378A004CE71D /* Trip.m in Sources */,
+				6517983F1B39378A004CE71D /* Route.m in Sources */,
 				65DEDA011B389F53005A6876 /* StarBusModel.xcdatamodeld in Sources */,
 				652C99571B30BE3C00F6C966 /* AppDelegate.m in Sources */,
 				652C995D1B30BE3C00F6C966 /* ViewController.m in Sources */,
 				652C99541B30BE3C00F6C966 /* main.m in Sources */,
+				651798371B39378A004CE71D /* StopTimes.m in Sources */,
+				651798331B393789004CE71D /* Stop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +347,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				65DEDA021B389F53005A6876 /* StarBusModel.xcdatamodeld in Sources */,
+				6517983C1B39378A004CE71D /* Trip.m in Sources */,
 				652C99711B30BE3D00F6C966 /* STARBusTests.m in Sources */,
+				651798401B39378A004CE71D /* Route.m in Sources */,
+				651798381B39378A004CE71D /* StopTimes.m in Sources */,
+				651798341B393789004CE71D /* Stop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,16 +554,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		652C99581B30BE3C00F6C966 /* STARBus.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				652C99591B30BE3C00F6C966 /* STARBus.xcdatamodel */,
-			);
-			currentVersion = 652C99591B30BE3C00F6C966 /* STARBus.xcdatamodel */;
-			path = STARBus.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
 		65DED9FF1B389F53005A6876 /* StarBusModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
