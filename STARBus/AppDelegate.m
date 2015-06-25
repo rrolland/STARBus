@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "CoreDataManager.h"
 
 @interface AppDelegate ()
+
+
 
 @end
 
@@ -17,6 +20,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    CoreDataManager *theCoreDataManager = [[CoreDataManager sharedManager] initWithManagedObjectContext:self.managedObjectContext];
+    
     return YES;
 }
 

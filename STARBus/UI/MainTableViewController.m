@@ -7,10 +7,12 @@
 //
 
 #import "MainTableViewController.h"
+#import "CoreDataManager.h"
+#import "Route.h"
 
 @interface MainTableViewController ()
 
-
+@property (nonatomic, strong) NSArray *routesArray;
 
 
 @end
@@ -19,6 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.routesArray = [[CoreDataManager sharedManager] getAllObjectsFromDatabaseWithType:@"Route"];
+  
 
 
 //    self.mapViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MapViewControllerStoryboardIdentifier"];
@@ -43,24 +48,29 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return self.routesArray.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"RouteCell"];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"RouteCell"];
+    }
     
-    // Configure the cell...
+    Route *theRoute = [self.routesArray objectAtIndex:indexPath.row];
+
+    cell.textLabel.text = theRoute.nameLong;
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.

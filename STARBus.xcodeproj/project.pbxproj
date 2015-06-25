@@ -33,8 +33,8 @@
 		65DED9FC1B389EC4005A6876 /* stops_extensions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9E91B389EC4005A6876 /* stops_extensions.txt */; };
 		65DED9FD1B389EC4005A6876 /* trips.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9EA1B389EC4005A6876 /* trips.txt */; };
 		65DED9FE1B389EC4005A6876 /* trips.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65DED9EA1B389EC4005A6876 /* trips.txt */; };
-		65DEDA011B389F53005A6876 /* StarBusModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65DED9FF1B389F53005A6876 /* StarBusModel.xcdatamodeld */; };
-		65DEDA021B389F53005A6876 /* StarBusModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65DED9FF1B389F53005A6876 /* StarBusModel.xcdatamodeld */; };
+		65DEDA011B389F53005A6876 /* STARBus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65DED9FF1B389F53005A6876 /* STARBus.xcdatamodeld */; };
+		65DEDA021B389F53005A6876 /* STARBus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65DED9FF1B389F53005A6876 /* STARBus.xcdatamodeld */; };
 		65E22BD21B39FB1400797201 /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BD11B39FB1400797201 /* Stop.m */; };
 		65E22BD31B39FB1400797201 /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BD11B39FB1400797201 /* Stop.m */; };
 		65E22BD61B39FB1400797201 /* StopTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BD51B39FB1400797201 /* StopTimes.m */; };
@@ -58,6 +58,8 @@
 		65F5383C1B3C836F00F3C609 /* GTFSDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F5383A1B3C836F00F3C609 /* GTFSDataHelper.m */; };
 		65F538401B3C865800F3C609 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F5383F1B3C865800F3C609 /* CHCSVParser.m */; };
 		65F538411B3C865800F3C609 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F5383F1B3C865800F3C609 /* CHCSVParser.m */; };
+		65F538441B3CB0C600F3C609 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F538421B3CB0C600F3C609 /* CoreDataManager.m */; };
+		65F538451B3CB0C600F3C609 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F538421B3CB0C600F3C609 /* CoreDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,7 +94,7 @@
 		65DED9E81B389EC4005A6876 /* stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.txt; sourceTree = "<group>"; };
 		65DED9E91B389EC4005A6876 /* stops_extensions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops_extensions.txt; sourceTree = "<group>"; };
 		65DED9EA1B389EC4005A6876 /* trips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trips.txt; sourceTree = "<group>"; };
-		65DEDA001B389F53005A6876 /* StarBusModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarBusModel.xcdatamodel; sourceTree = "<group>"; };
+		65DEDA001B389F53005A6876 /* STARBus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = STARBus.xcdatamodel; sourceTree = "<group>"; };
 		65E22BD01B39FB1400797201 /* Stop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stop.h; sourceTree = "<group>"; };
 		65E22BD11B39FB1400797201 /* Stop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stop.m; sourceTree = "<group>"; };
 		65E22BD41B39FB1400797201 /* StopTimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopTimes.h; sourceTree = "<group>"; };
@@ -116,6 +118,8 @@
 		65F5383A1B3C836F00F3C609 /* GTFSDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTFSDataHelper.m; sourceTree = "<group>"; };
 		65F5383E1B3C865800F3C609 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
 		65F5383F1B3C865800F3C609 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+		65F538421B3CB0C600F3C609 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		65F538431B3CB0C600F3C609 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,7 +224,7 @@
 		65DED9DF1B389EC4005A6876 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				65DED9FF1B389F53005A6876 /* StarBusModel.xcdatamodeld */,
+				65DED9FF1B389F53005A6876 /* STARBus.xcdatamodeld */,
 				65E22BDC1B39FB1500797201 /* Route.h */,
 				65E22BDD1B39FB1500797201 /* Route.m */,
 				65E22BD81B39FB1500797201 /* Trip.h */,
@@ -253,6 +257,8 @@
 		65E22BCE1B39F92F00797201 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				65F538431B3CB0C600F3C609 /* CoreDataManager.h */,
+				65F538421B3CB0C600F3C609 /* CoreDataManager.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -419,9 +425,10 @@
 				65E22BDA1B39FB1500797201 /* Trip.m in Sources */,
 				65E22BDE1B39FB1500797201 /* Route.m in Sources */,
 				65F538371B3C810F00F3C609 /* UIView+Constraints.m in Sources */,
-				65DEDA011B389F53005A6876 /* StarBusModel.xcdatamodeld in Sources */,
+				65DEDA011B389F53005A6876 /* STARBus.xcdatamodeld in Sources */,
 				65E22BE61B39FC2E00797201 /* MainViewController.m in Sources */,
 				65F5383B1B3C836F00F3C609 /* GTFSDataHelper.m in Sources */,
+				65F538441B3CB0C600F3C609 /* CoreDataManager.m in Sources */,
 				652C99571B30BE3C00F6C966 /* AppDelegate.m in Sources */,
 				652C99541B30BE3C00F6C966 /* main.m in Sources */,
 				65E22BD61B39FB1400797201 /* StopTimes.m in Sources */,
@@ -435,7 +442,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				65F538381B3C810F00F3C609 /* UIView+Constraints.m in Sources */,
-				65DEDA021B389F53005A6876 /* StarBusModel.xcdatamodeld in Sources */,
+				65F538451B3CB0C600F3C609 /* CoreDataManager.m in Sources */,
+				65DEDA021B389F53005A6876 /* STARBus.xcdatamodeld in Sources */,
 				652C99711B30BE3D00F6C966 /* STARBusTests.m in Sources */,
 				65E22BE71B39FC2E00797201 /* MainViewController.m in Sources */,
 				65F5383C1B3C836F00F3C609 /* GTFSDataHelper.m in Sources */,
@@ -649,13 +657,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		65DED9FF1B389F53005A6876 /* StarBusModel.xcdatamodeld */ = {
+		65DED9FF1B389F53005A6876 /* STARBus.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				65DEDA001B389F53005A6876 /* StarBusModel.xcdatamodel */,
+				65DEDA001B389F53005A6876 /* STARBus.xcdatamodel */,
 			);
-			currentVersion = 65DEDA001B389F53005A6876 /* StarBusModel.xcdatamodel */;
-			path = StarBusModel.xcdatamodeld;
+			currentVersion = 65DEDA001B389F53005A6876 /* STARBus.xcdatamodel */;
+			path = STARBus.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

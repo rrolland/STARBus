@@ -29,8 +29,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self addMapTableViewController];
-    [self addMapViewController];
     
     GTFSDataHelper *theGTFSDataHelper = [[GTFSDataHelper alloc] init];
     
@@ -38,23 +36,38 @@
     
      __block NSManagedObjectContext *managedObjectContext = [(AppDelegate *)[[UIApplication sharedApplication] delegate] managedObjectContext];
     
-    [theRoutes enumerateObjectsUsingBlock:^(Route *obj, NSUInteger idx, BOOL *stop) {
+    __block NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
+    f.numberStyle = NSNumberFormatterDecimalStyle;
+    
+    [theRoutes enumerateObjectsUsingBlock:^(NSArray *obj, NSUInteger idx, BOOL *stop) {
         
         if (idx > 0) {
             Route * aRoute = [NSEntityDescription insertNewObjectForEntityForName:@"Route" inManagedObjectContext:managedObjectContext];
+            //route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
             
-            aRoute.identifier = obj.identifier;
-            aRoute.desc = obj.desc;
-            aRoute.nameLong = obj.nameLong;
-            aRoute.nameShort = obj.nameShort;
-            aRoute.textColor = obj.textColor;
-            aRoute.identifier = obj.identifier;
+            
+            aRoute.identifier = [f numberFromString:[obj objectAtIndex:0]];
+            aRoute.desc = [obj objectAtIndex:4];
+            aRoute.nameLong = [obj objectAtIndex:3];
+            aRoute.nameShort = [obj objectAtIndex:2];
+            aRoute.textColor = [obj objectAtIndex:8];
+            aRoute.color = [obj objectAtIndex:7];
         }
        
         
         
     }];
     
+    NSError *error;
+    
+    if (![managedObjectContext save:&error]) {
+        NSLog(@"Erreur lors de l'enregistrement des données %@ - %@", error, [error userInfo]);
+    }
+    
+    
+    [self addMapTableViewController];
+    [self addMapViewController];
+       
 }
 
 - (void)didReceiveMemoryWarning {
