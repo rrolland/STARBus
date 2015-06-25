@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		652C99541B30BE3C00F6C966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C99531B30BE3C00F6C966 /* main.m */; };
 		652C99571B30BE3C00F6C966 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C99561B30BE3C00F6C966 /* AppDelegate.m */; };
-		652C995D1B30BE3C00F6C966 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C995C1B30BE3C00F6C966 /* ViewController.m */; };
 		652C99601B30BE3C00F6C966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652C995E1B30BE3C00F6C966 /* Main.storyboard */; };
 		652C99621B30BE3C00F6C966 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652C99611B30BE3C00F6C966 /* Images.xcassets */; };
 		652C99651B30BE3C00F6C966 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652C99631B30BE3C00F6C966 /* LaunchScreen.xib */; };
@@ -44,6 +43,21 @@
 		65E22BDB1B39FB1500797201 /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BD91B39FB1500797201 /* Trip.m */; };
 		65E22BDE1B39FB1500797201 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BDD1B39FB1500797201 /* Route.m */; };
 		65E22BDF1B39FB1500797201 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BDD1B39FB1500797201 /* Route.m */; };
+		65E22BE61B39FC2E00797201 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BE51B39FC2E00797201 /* MainViewController.m */; };
+		65E22BE71B39FC2E00797201 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BE51B39FC2E00797201 /* MainViewController.m */; };
+		65E22BEA1B39FD3200797201 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BE91B39FD3200797201 /* MainTableViewController.m */; };
+		65E22BEB1B39FD3200797201 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BE91B39FD3200797201 /* MainTableViewController.m */; };
+		65E22BEE1B39FE9E00797201 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BED1B39FE9E00797201 /* MapViewController.m */; };
+		65E22BEF1B39FE9E00797201 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E22BED1B39FE9E00797201 /* MapViewController.m */; };
+		65E22BF11B3A017300797201 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E22BF01B3A017300797201 /* CoreData.framework */; };
+		65E22BF31B3A018600797201 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E22BF21B3A018600797201 /* CoreLocation.framework */; };
+		65E22BF51B3A01B400797201 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E22BF41B3A01B400797201 /* MapKit.framework */; };
+		65F538371B3C810F00F3C609 /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F538361B3C810F00F3C609 /* UIView+Constraints.m */; };
+		65F538381B3C810F00F3C609 /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F538361B3C810F00F3C609 /* UIView+Constraints.m */; };
+		65F5383B1B3C836F00F3C609 /* GTFSDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F5383A1B3C836F00F3C609 /* GTFSDataHelper.m */; };
+		65F5383C1B3C836F00F3C609 /* GTFSDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F5383A1B3C836F00F3C609 /* GTFSDataHelper.m */; };
+		65F538401B3C865800F3C609 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F5383F1B3C865800F3C609 /* CHCSVParser.m */; };
+		65F538411B3C865800F3C609 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F5383F1B3C865800F3C609 /* CHCSVParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +76,6 @@
 		652C99531B30BE3C00F6C966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		652C99551B30BE3C00F6C966 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		652C99561B30BE3C00F6C966 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		652C995B1B30BE3C00F6C966 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		652C995C1B30BE3C00F6C966 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		652C995F1B30BE3C00F6C966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		652C99611B30BE3C00F6C966 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		652C99641B30BE3C00F6C966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -89,6 +101,21 @@
 		65E22BD91B39FB1500797201 /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
 		65E22BDC1B39FB1500797201 /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
 		65E22BDD1B39FB1500797201 /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		65E22BE41B39FC2E00797201 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		65E22BE51B39FC2E00797201 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		65E22BE81B39FD3200797201 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		65E22BE91B39FD3200797201 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		65E22BEC1B39FE9E00797201 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		65E22BED1B39FE9E00797201 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		65E22BF01B3A017300797201 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		65E22BF21B3A018600797201 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		65E22BF41B3A01B400797201 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		65F538351B3C810F00F3C609 /* UIView+Constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constraints.h"; sourceTree = "<group>"; };
+		65F538361B3C810F00F3C609 /* UIView+Constraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constraints.m"; sourceTree = "<group>"; };
+		65F538391B3C836F00F3C609 /* GTFSDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTFSDataHelper.h; sourceTree = "<group>"; };
+		65F5383A1B3C836F00F3C609 /* GTFSDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTFSDataHelper.m; sourceTree = "<group>"; };
+		65F5383E1B3C865800F3C609 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		65F5383F1B3C865800F3C609 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +123,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E22BF51B3A01B400797201 /* MapKit.framework in Frameworks */,
+				65E22BF31B3A018600797201 /* CoreLocation.framework in Frameworks */,
+				65E22BF11B3A017300797201 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +144,7 @@
 			children = (
 				652C99501B30BE3C00F6C966 /* STARBus */,
 				652C996D1B30BE3D00F6C966 /* STARBusTests */,
+				65E22BF61B3A01C900797201 /* Frameworks */,
 				652C994F1B30BE3C00F6C966 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,6 +161,8 @@
 		652C99501B30BE3C00F6C966 /* STARBus */ = {
 			isa = PBXGroup;
 			children = (
+				65F5383D1B3C865800F3C609 /* CHCSVParser */,
+				65F538341B3C80C800F3C609 /* Categories */,
 				65E22BCE1B39F92F00797201 /* Managers */,
 				65E22BCF1B39F92F00797201 /* Helpers */,
 				65DED9DE1B389EC4005A6876 /* UI */,
@@ -137,9 +170,6 @@
 				65DED9E01B389EC4005A6876 /* GTFS */,
 				652C99551B30BE3C00F6C966 /* AppDelegate.h */,
 				652C99561B30BE3C00F6C966 /* AppDelegate.m */,
-				652C995B1B30BE3C00F6C966 /* ViewController.h */,
-				652C995C1B30BE3C00F6C966 /* ViewController.m */,
-				652C995E1B30BE3C00F6C966 /* Main.storyboard */,
 				652C99611B30BE3C00F6C966 /* Images.xcassets */,
 				652C99631B30BE3C00F6C966 /* LaunchScreen.xib */,
 				652C99511B30BE3C00F6C966 /* Supporting Files */,
@@ -176,6 +206,13 @@
 		65DED9DE1B389EC4005A6876 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				65E22BE41B39FC2E00797201 /* MainViewController.h */,
+				65E22BE51B39FC2E00797201 /* MainViewController.m */,
+				65E22BE81B39FD3200797201 /* MainTableViewController.h */,
+				65E22BE91B39FD3200797201 /* MainTableViewController.m */,
+				65E22BEC1B39FE9E00797201 /* MapViewController.h */,
+				65E22BED1B39FE9E00797201 /* MapViewController.m */,
+				652C995E1B30BE3C00F6C966 /* Main.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -223,8 +260,38 @@
 		65E22BCF1B39F92F00797201 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				65F538391B3C836F00F3C609 /* GTFSDataHelper.h */,
+				65F5383A1B3C836F00F3C609 /* GTFSDataHelper.m */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		65E22BF61B3A01C900797201 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65E22BF41B3A01B400797201 /* MapKit.framework */,
+				65E22BF21B3A018600797201 /* CoreLocation.framework */,
+				65E22BF01B3A017300797201 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65F538341B3C80C800F3C609 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				65F538351B3C810F00F3C609 /* UIView+Constraints.h */,
+				65F538361B3C810F00F3C609 /* UIView+Constraints.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		65F5383D1B3C865800F3C609 /* CHCSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				65F5383E1B3C865800F3C609 /* CHCSVParser.h */,
+				65F5383F1B3C865800F3C609 /* CHCSVParser.m */,
+			);
+			path = CHCSVParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,14 +414,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F538401B3C865800F3C609 /* CHCSVParser.m in Sources */,
+				65E22BEA1B39FD3200797201 /* MainTableViewController.m in Sources */,
 				65E22BDA1B39FB1500797201 /* Trip.m in Sources */,
 				65E22BDE1B39FB1500797201 /* Route.m in Sources */,
+				65F538371B3C810F00F3C609 /* UIView+Constraints.m in Sources */,
 				65DEDA011B389F53005A6876 /* StarBusModel.xcdatamodeld in Sources */,
+				65E22BE61B39FC2E00797201 /* MainViewController.m in Sources */,
+				65F5383B1B3C836F00F3C609 /* GTFSDataHelper.m in Sources */,
 				652C99571B30BE3C00F6C966 /* AppDelegate.m in Sources */,
-				652C995D1B30BE3C00F6C966 /* ViewController.m in Sources */,
 				652C99541B30BE3C00F6C966 /* main.m in Sources */,
 				65E22BD61B39FB1400797201 /* StopTimes.m in Sources */,
 				65E22BD21B39FB1400797201 /* Stop.m in Sources */,
+				65E22BEE1B39FE9E00797201 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,12 +434,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F538381B3C810F00F3C609 /* UIView+Constraints.m in Sources */,
 				65DEDA021B389F53005A6876 /* StarBusModel.xcdatamodeld in Sources */,
 				652C99711B30BE3D00F6C966 /* STARBusTests.m in Sources */,
+				65E22BE71B39FC2E00797201 /* MainViewController.m in Sources */,
+				65F5383C1B3C836F00F3C609 /* GTFSDataHelper.m in Sources */,
 				65E22BDB1B39FB1500797201 /* Trip.m in Sources */,
 				65E22BDF1B39FB1500797201 /* Route.m in Sources */,
 				65E22BD71B39FB1400797201 /* StopTimes.m in Sources */,
+				65F538411B3C865800F3C609 /* CHCSVParser.m in Sources */,
+				65E22BEF1B39FE9E00797201 /* MapViewController.m in Sources */,
 				65E22BD31B39FB1400797201 /* Stop.m in Sources */,
+				65E22BEB1B39FD3200797201 /* MainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +466,7 @@
 				652C995F1B30BE3C00F6C966 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		652C99631B30BE3C00F6C966 /* LaunchScreen.xib */ = {
